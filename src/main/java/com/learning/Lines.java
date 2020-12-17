@@ -1,3 +1,5 @@
+package main.java.com.learning;
+
 /** TODO: Review comments
  * 1) поправить форматирование кода
  *
