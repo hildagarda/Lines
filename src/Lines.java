@@ -1,3 +1,7 @@
+/** TODO: Review comments
+ * 1) поправить форматирование кода
+ *
+ * */
 public class Lines {
     public static void main(String[] args) {
         String one = "Hello";
@@ -14,6 +18,7 @@ public class Lines {
         int end = 3;
 
         char[] dst = new char[end-start]; // вопрос, если поменять местами енд и старт, то выдаст ошибку, почему???
+        //TODO: ответ: если поменять местами ты разность будет (0-3) = -3. т.е. ты создаешь массив на -3 элемента
         one.getChars(start,end,dst,0);
         System.out.println(dst); // извлекает группу символов или подстроку "getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)"
 
@@ -59,6 +64,7 @@ public class Lines {
 
         // Split:
         String five = "I said Hello World! twice";  // есть вопросы!!!!!!!
+        //TODO: каике вопросы?
         String[] words = five.split("");
         for (String word : words){
             System.out.print(word);
